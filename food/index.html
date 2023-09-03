@@ -80,167 +80,194 @@
     </nav>
     <!-- img -->
     <div class="img-div-pad">
-      <img src="./img/food.jpg" alt="food" width="100%" height="400px" />
-    </div>
+      <!-- Carousel -->
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://static.tossdown.com/images/ac51af11-090c-49e8-9296-472de72fc5cb.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://static.tossdown.com/images/c0ac3861-5a22-47cc-8f27-9aaed33c85e0.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://static.tossdown.com/images/16314f43-3e0c-48a2-b4f4-586ab32798de.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     <!-- cards -->
     <div class="my-style-card">
       <div class="container">
         <div class="row">
-            <div class="mx-auto-style">
-          <!-- card-1 -->
-          <div class="card " style="width: 18rem">
-            <img
-              src="./img/Meat-Pizza-2.jpeg"
-              class="card-img-top"
-              alt="Meat-Pizza-1"
-              height="150px"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Meat Pizza</h5>
-              <p class="card-text">
-                The list of the most popular meat toppings for pizza usually
-                includes pepperoni, Italian sausage, Canadian bacon, ham,
-                chicken, bacon, and ground beef.
-              </p>
-              <a href="#" class="btn btn-success">By Now</a><span>$250</span>
-            </div>
-          </div>
-          <!-- card-2 -->
-          <div class="card" style="width: 18rem">
-            <img
-              src="./img/french fries.jfif"
-              class="card-img-top"
-              alt="French fries"
-              height="150px"
-            />
-            <div class="card-body">
-              <h5 class="card-title">French fries</h5>
-              <p class="card-text">
-                French fries, chips, finger chips, french-fried potatoes, or
-                simply fries, are batonnet or allumette-cut deep-fried potatoes
-                of disputed origin from Belgium or France.
-              </p>
-              <a href="#" class="btn btn-success">By Now</a><span>$55</span>
-            </div>
-          </div>
-          <!-- card-3 -->
-          <div class="card" style="width: 18rem">
-            <img
-              src="./img/ice cream.jfif"
-              class="card-img-top"
-              alt="Ice Cream"
-              height="150px"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Ice Cream</h5>
-              <p class="card-text">
-                Ice cream is a frozen dessert typically made from milk or cream
-                that has been flavoured with a sweetener, either sugar or an
-                alternative, and a spice, such as cocoa or vanilla, or with
-                fruit.
-              </p>
-              <a href="#" class="btn btn-success">By Now</a><span>$20</span>
-            </div>
-          </div>
-          <!-- card-4 -->
-          <div class="card" style="width: 18rem">
-            <img
-              src="./img/chicken korma.jfif"
-              class="card-img-top"
-              alt="Ice Cream"
-              height="150px"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Chicken Korma</h5>
-              <p class="card-text">
-                Korma or qorma is a dish originating in the Indian subcontinent,
-                consisting of meat or vegetables braised with yogurt, water or
-                stock.
-                <br /><br />
-              </p>
-              <a href="#" class="btn btn-success">By Now</a><span>$150</span>
-            </div>
-          </div>
-          <!-- card-5 -->
-          <div class="card" style="width: 18rem">
-            <img
-              src="./img/chicken biryani.jfif"
-              class="card-img-top"
-              alt="chicken biryani"
-              height="150px"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Chicken Biryani</h5>
-              <p class="card-text">
-                Biryani is a mixed rice dish originating among the Muslims of
-                South Asia. It is made with spices, vegetables, rice, and
-                usually some type of meat.
-                <br /><br />
-              </p>
-              <a href="#" class="btn btn-success">By Now</a><span>$200</span>
-            </div>
-          </div>
-          <!-- card-6 -->
-          <div class="card" style="width: 18rem">
-            <img
-              src="./img/Margherita Pizza.jfif"
-              class="card-img-top"
-              alt="Margherita Pizza"
-              height="150px"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Margherita Pizza</h5>
-              <p class="card-text">
-                Pizza Margherita is a typical Neapolitan pizza, made with San
-                Marzano tomatoes, mozzarella cheese, fresh basil, salt, and
-                extra-virgin olive oil. <br /><br />
-              </p>
-              <a href="#" class="btn btn-success">By Now</a><span>$150</span>
-            </div>
-          </div>
-          <!-- card-7 -->
-          <div class="card" style="width: 18rem">
-            <img
-              src="./img/burger king chicken sandwich.jfif"
-              class="card-img-top"
-              alt="burger king chicken sandwich"
-              height="150px"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Burger King Chicken Sandwich</h5>
-              <p class="card-text">
-                The Burger King Specialty Sandwiches are a line of sandwiches
-                developed by the international fast-food restaurant.<br />
-              </p>
-              <a href="#" class="btn btn-success">By Now</a><span>$30</span>
-            </div>
-          </div>
-          <!-- card-8 -->
-          <div class="card" style="width: 18rem">
-            <img
-              src="./img/pepsi blue.png"
-              class="card-img-top"
-              alt="Pepsi Blue"
-              height="150px"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Pepsi Blue</h5>
-              <p class="card-text">
-                Pepsi Blue is a berry-flavored soft drink produced by PepsiCo.
-                It was marketed as a "Berry Cola Fusion", and was sold from 2002
-                to 2004 in the United States and Canada.
+          <div class="mx-auto-style">
+            <!-- card-1 -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="./img/Meat-Pizza-2.jpeg"
+                class="card-img-top"
+                alt="Meat-Pizza-1"
+                height="150px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Meat Pizza</h5>
+                <p class="card-text">
+                  The list of the most popular meat toppings for pizza usually
+                  includes pepperoni, Italian sausage, Canadian bacon, ham,
+                  chicken, bacon, and ground beef.
+                </p>
                 <br />
-              </p>
-              <a href="#" class="btn btn-success">By Now</a><span>$20</span>
+                <a href="#" class="btn btn-success">By Now</a><span>$250</span>
+              </div>
+            </div>
+            <!-- card-2 -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="./img/french fries.jfif"
+                class="card-img-top"
+                alt="French fries"
+                height="150px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">French fries</h5>
+                <p class="card-text">
+                  French fries, chips, finger chips, french-fried potatoes, or
+                  simply fries, are batonnet or allumette-cut deep-fried
+                  potatoes of disputed origin from Belgium or France.
+                </p>
+                <br />
+                <a href="#" class="btn btn-success">By Now</a><span>$55</span>
+              </div>
+            </div>
+            <!-- card-3 -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="./img/ice cream.jfif"
+                class="card-img-top"
+                alt="Ice Cream"
+                height="150px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ice Cream</h5>
+                <p class="card-text">
+                  Ice cream is a frozen dessert typically made from milk or
+                  cream that has been flavoured with a sweetener, either sugar
+                  or an alternative, and a spice, such as cocoa or vanilla, or
+                  with fruit.
+                </p>
+                <a href="#" class="btn btn-success">By Now</a><span>$20</span>
+              </div>
+            </div>
+            <!-- card-4 -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="./img/chicken korma.jfif"
+                class="card-img-top"
+                alt="Ice Cream"
+                height="150px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Chicken Korma</h5>
+                <p class="card-text">
+                  Korma or qorma is a dish originating in the Indian
+                  subcontinent, consisting of meat or vegetables braised with
+                  yogurt, water or stock.
+                  <br /><br />
+                </p>
+                <a href="#" class="btn btn-success">By Now</a><span>$150</span>
+              </div>
+            </div>
+            <!-- card-5 -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="./img/chicken biryani.jfif"
+                class="card-img-top"
+                alt="chicken biryani"
+                height="150px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Chicken Biryani</h5>
+                <p class="card-text">
+                  Biryani is a mixed rice dish originating among the Muslims of
+                  South Asia. It is made with spices, vegetables, rice, and
+                  usually some type of meat.
+                  <br /><br />
+                </p>
+                <a href="#" class="btn btn-success">By Now</a><span>$200</span>
+              </div>
+            </div>
+            <!-- card-6 -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="./img/Margherita Pizza.jfif"
+                class="card-img-top"
+                alt="Margherita Pizza"
+                height="150px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Margherita Pizza</h5>
+                <p class="card-text">
+                  Pizza Margherita is a typical Neapolitan pizza, made with San
+                  Marzano tomatoes, mozzarella cheese, fresh basil, salt, and
+                  extra-virgin olive oil. <br /><br />
+                </p>
+                <a href="#" class="btn btn-success">By Now</a><span>$150</span>
+              </div>
+            </div>
+            <!-- card-7 -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="./img/burger king chicken sandwich.jfif"
+                class="card-img-top"
+                alt="burger king chicken sandwich"
+                height="150px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Burger King Chicken Sandwich</h5>
+                <p class="card-text">
+                  The Burger King Specialty Sandwiches are a line of sandwiches
+                  developed by the international fast-food restaurant.<br /><br />
+                </p>
+                <a href="#" class="btn btn-success">By Now</a><span>$30</span>
+              </div>
+            </div>
+            <!-- card-8 -->
+            <div class="card" style="width: 18rem">
+              <img
+                src="./img/pepsi blue.png"
+                class="card-img-top"
+                alt="Pepsi Blue"
+                height="150px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pepsi Blue</h5>
+                <p class="card-text">
+                  Pepsi Blue is a berry-flavored soft drink produced by PepsiCo.
+                  It was marketed as a "Berry Cola Fusion", and was sold from
+                  2002 to 2004 in the United States and Canada.
+                  <br /><br />
+                </p>
+                <a href="#" class="btn btn-success">By Now</a><span>$20</span>
+              </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </div>
     <!-- Carousel -->
-   <div class="container">
-    <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button
             type="button"
@@ -277,31 +304,51 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./img/burger king chicken sandwich.jfif" class="d-block w-100" alt="Burger King Chicken Sandwich.jfif" />
+            <img
+              src="./img/burger king chicken sandwich.jfif"
+              class="d-block w-100"
+              alt="Burger King Chicken Sandwich.jfif"
+            />
             <div class="carousel-caption d-none d-md-block">
               <h5>Burger King Chicken Sandwich</h5>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./img/chicken biryani.jfif" class="d-block w-100" alt="chicken biryani" />
+            <img
+              src="./img/chicken biryani.jfif"
+              class="d-block w-100"
+              alt="chicken biryani"
+            />
             <div class="carousel-caption d-none d-md-block">
               <h5>Chicken Biryani</h5>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./img/chicken korma.jfif" class="d-block w-100" alt="chicken korma" />
+            <img
+              src="./img/chicken korma.jfif"
+              class="d-block w-100"
+              alt="chicken korma"
+            />
             <div class="carousel-caption d-none d-md-block">
               <h5>Chicken Korma</h5>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./img/Margherita Pizza.jfif" class="d-block w-100" alt="Margherita Pizza" />
+            <img
+              src="./img/Margherita Pizza.jfif"
+              class="d-block w-100"
+              alt="Margherita Pizza"
+            />
             <div class="carousel-caption d-none d-md-block">
               <h5>Margherita Pizza</h5>
             </div>
           </div>
           <div class="carousel-item">
-            <img src=".//img/french fries.jfif" class="d-block w-100" alt="French Fries" />
+            <img
+              src=".//img/french fries.jfif"
+              class="d-block w-100"
+              alt="French Fries"
+            />
             <div class="carousel-caption d-none d-md-block">
               <h5>French Fries</h5>
             </div>
@@ -326,6 +373,6 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-   </div>
+    </div>
   </body>
 </html>
