@@ -1,3 +1,10 @@
 .my-nav{
     box-shadow: 3px 2px 10px lightslategray;
 }
+.img-div-pad{
+    margin: 10px;
+}
+.my-style-card{
+    margin: 20px;
+    justify-content: space-around;
+}
