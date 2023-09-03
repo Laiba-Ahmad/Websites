@@ -12,3 +12,13 @@ span{
     margin-left: 10px;
     font-weight: bold;
 }
+.mx-auto-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+cr2{
+    margin-top: 10px;
+}
