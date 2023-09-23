@@ -1,9 +1,19 @@
 .main{
     background: pink;
     width: 50%;
-    height:70%;
-
+    height: 533px;
+    padding: 50px;
+}
+h1{
+    color: red;
 }
 table{
-
+    float: left;
+}
+image{
+    float: right;
+}
+td{
+    
+    padding-left: 10px;
 }
