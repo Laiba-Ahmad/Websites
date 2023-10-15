@@ -1,0 +1,24 @@
+.my-card{
+    margin: 10px;
+}
+
+.my-style-card{
+    margin: 20px;
+    justify-content: space-around;
+}
+.mx-auto-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.card-hover:hover{
+    border-radius: 1%;
+    background: rgb( 10 , 10 , 10 , 100) ;
+    color: white;
+}
+body{
+    color: white;
+    background: rgb(32, 27, 27);
+}
