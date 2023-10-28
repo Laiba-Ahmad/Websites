@@ -1,0 +1,15 @@
+.red {
+  color: red;
+}
+.red-hover:hover {
+  color: red;
+}
+.home-margin {
+  margin-left: 150px;
+}
+.n-c {
+  color: rgb(43, 40, 40);
+}
+.n-c:hover {
+  color: red;
+}
