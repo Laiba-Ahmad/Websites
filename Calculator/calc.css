@@ -1,0 +1,30 @@
+.main {
+  padding: 10px;
+  width: 350px;
+}
+button {
+  width: 65px;
+  margin: 2px;
+  font-size: 30px;
+}
+.clr-btn {
+  width: 138px;
+}
+.input {
+  height: 50px;
+  width: 272px;
+  text-align: right;
+}
+.main-inside-main {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 1px;
+}
+.head-main {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+body {
+  background-color: aquamarine;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link
+      href="https://png.pngtree.com/png-vector/20190115/ourmid/pngtree-vector-calculator-icon-png-image_319747.jpg"
+      type="png"
+      rel="icon"
+    />
+    <link rel="stylesheet" href="calc.css" />
+  </head>
+  <body>
+    <div class="head-main">
+      <div class="main">
+        <h1>Calculator</h1>
+        <div class="main-inside-main">
+          <div>
+            <div>
+              <input class="input" type="text" id="input" />
+            </div>
+            <br />
+            <div>
+              <button class="clr-btn" onclick="clrall()">Clear All</button>
+              <button class="clr-btn" onclick="clr()">Clear</button>
+            </div>
+            <div>
+              <button onclick="button(7)">7</button>
+              <button onclick="button(8)">8</button>
+              <button onclick="button(9)">9</button>
+              <button onclick="button('/')">/</button>
+            </div>
+            <div>
+              <button onclick="button(4)">4</button>
+              <button onclick="button(5)">5</button>
+              <button onclick="button(6)">6</button>
+              <button onclick="button('*')">*</button>
+            </div>
+            <div>
+              <button onclick="button(1)">1</button>
+              <button onclick="button(2)">2</button>
+              <button onclick="button(3)">3</button>
+              <button onclick="button('-')">-</button>
+            </div>
+            <div>
+              <button onclick="button(0)">0</button>
+              <button onclick="button('.')">.</button>
+              <button onclick="answer()">=</button>
+              <button onclick="button('+')">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="calc.js"></script>
+  </body>
+</html>
