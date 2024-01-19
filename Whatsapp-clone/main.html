@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whatsapp Clone</title>
+    <link rel="icon" href="./icon/WhatsApp.webp" type="webp" />
+    <style>
+      
+.main{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div>
+        <input
+          id="iptMess"
+          type="text"
+          placeholder="Type Your Message?"
+          style="padding: 8px; width: 300px"
+        />
+        <button
+          onclick="send()"
+          style="
+            background-color: aquamarine;
+            padding: 5px;
+            border-color: aquamarine;
+            font-size: large;
+            font-weight: bold;
+            color: white;
+          "
+        >
+          Send
+        </button>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
