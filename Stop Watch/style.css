@@ -1,0 +1,13 @@
+.main1{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.main2{
+    text-align: center;
+}
+h1{
+    width: 100px;
+    color: white;
+
+}
