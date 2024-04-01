@@ -39,13 +39,17 @@ function signin() {
 const inputbox = document.getElementById('iptMess')
 const ul = document.getElementById('praipt')
 function send() {
-    var inpt = document.getElementById('iptMess')
+    var inpt1 = document.getElementById('iptMess')
     var li = document.createElement('li')
     li.className = 'ulli'
-    var textinsert = document.createTextNode(inpt.value)
-    li.appendChild(textinsert)
+    var fname1 = document.getElementById('fname')
+    var li = document.createElement('li')
+    li.className = 'ulli'
+    var textinsert1 = document.createTextNode(fname1.value + ' : ' + inpt1.value + " ")
+    li.appendChild(textinsert1)
     ul.appendChild(li)
-    inpt.value = ''
+    inpt1.value = ''
+    fname1.value = ''
     var delbtn = document.createElement('button')
     var delbtntxt = document.createTextNode('Delete')
     delbtn.appendChild(delbtntxt)
@@ -69,5 +73,4 @@ function showData() {
     praipt.innerHTML = localStorage.getItem('Data');
 }
 showData();
-
 
