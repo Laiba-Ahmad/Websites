@@ -1,30 +1,82 @@
+    // const inputbox = document.getElementById('iptMess')
+    // const ul = document.getElementById('praipt')
+    // function send() {
+        // var inpt1 = document.getElementById('iptMess')
+        // var li = document.createElement('li')
+        // li.className = 'ulli'
+        // var fname1 = document.getElementById('fname')
+        // var li = document.createElement('li')
+        // li.className = 'ulli'
+        // var textinsert1 = document.createTextNode(fname1.value + ' : ' + inpt1.value + " ")
+        // li.appendChild(textinsert1)
+        // ul.appendChild(li)
+        // inpt1.value = ''
+        // fname1.value = ''
+        // var delbtn = document.createElement('button')
+        // var delbtntxt = document.createTextNode('Delete')
+        // delbtn.appendChild(delbtntxt)
+        // li.appendChild(delbtn)
+        // delbtn.setAttribute('onclick', 'delmess(this)')
+// 
+        // saveData();
+    // }
+    // function editmess(ed) {
+        // var pro = prompt("Type your Message", ed.parentNode.firstChild.nodeValue)
+        // ed.parentNode.firstChild.nodeValue = pro
+        // saveData()
+    // }
+    // function delmess(dele) {
+        // dele.parentNode.remove()
+        // saveData()
+    // }
+    // function deleteall() {
+        // ul.innerHTML = ''
+        // saveData()
+    // }
+    // function saveData() {
+        // localStorage.setItem('Data', praipt.innerHTML)
+    // }
+    // function showData() {
+        // praipt.innerHTML = localStorage.getItem('Data');
+    // }
+    // showData();
 
-var ul = document.getElementById('praipt')
+// Comments page Code:
+const inputbox = document.getElementById('iptMess')
+const ul = document.getElementById('praipt')
 function send() {
-    var inpt = document.getElementById('iptMess')
+    var inpt1 = document.getElementById('iptMess')
     var li = document.createElement('li')
-    var textinsert = document.createTextNode(inpt.value)
-    li.appendChild(textinsert)
+    li.className = 'ulli'
+    var fname1 = document.getElementById('fname')
+    var li = document.createElement('li')
+    li.className = 'ulli'
+    var textinsert1 = document.createTextNode(fname1.value + ' : ' + inpt1.value + " ")
+    li.appendChild(textinsert1)
     ul.appendChild(li)
-    inpt.value = ''
+    inpt1.value = ''
+    fname1.value = ''
     var delbtn = document.createElement('button')
     var delbtntxt = document.createTextNode('Delete')
     delbtn.appendChild(delbtntxt)
     li.appendChild(delbtn)
     delbtn.setAttribute('onclick', 'delmess(this)')
-    var editbtn = document.createElement('button')
-    var editbtntxt = document.createTextNode('Edit')
-    editbtn.appendChild(editbtntxt)
-    li.appendChild(editbtn)
-    editbtn.setAttribute('onclick','editmess(this)')
-}
-function editmess(ed){
-    var pro = prompt("Type your Message",ed.parentNode.firstChild.nodeValue)
-    ed.parentNode.firstChild.nodeValue = pro  
+
+    saveData();
 }
 function delmess(dele) {
     dele.parentNode.remove()
+    saveData();
 }
 function deleteall() {
     ul.innerHTML = ''
+    saveData();
 }
+function saveData() {
+    localStorage.setItem('Data', praipt.innerHTML)
+}
+function showData() {
+    praipt.innerHTML = localStorage.getItem('Data');
+}
+showData();
+
