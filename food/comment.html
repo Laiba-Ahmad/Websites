@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+    />
+    <title>Pak-Restaurant</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style src="./"></style>
+    <style>
+      .main {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+      }
+      li {
+        background-color: white;
+        padding: 10px;
+        margin-top: 10px;
+        width: 250px;
+      }
+      button {
+        background-color: #28a745;
+        color: white;
+        margin: 3px;
+        padding: 5px;
+        font-size: large;
+        font-weight: bold;
+        color: white;
+        border-color: #28a745;
+      }
+      .divul {
+        padding: 20px;
+        margin-bottom: 10px;
+        width: 88%;
+        height: 500px;
+        border: 2px solid black;
+        overflow-y: auto;
+        background-color: black;
+      }
+    </style>
+  </head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg bg-body-tertiary my-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img
+            src="./img/Pakitan.jpg"
+            alt="Pakistan"
+            title="Pakistan"
+            width="50px"
+          />
+          Pakistan
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./comment.html">About Me</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="./index.html"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+              Order Now
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="./bg.html" class="dropdown-item" href="#"
+                    >French Fries</a
+                  >
+                </li>
+                <li>
+                  <a href="./bg.html" class="dropdown-item" href="#"
+                    >Chicken Biryani</a
+                  >
+                </li>
+                <li>
+                  <a href="./bg.html" class="dropdown-item" href="#"
+                    >Chicken Korma</a
+                  >
+                </li>
+                <li>
+                  <a href="./bg.html" class="dropdown-item" href="#">Ice Cream</a>
+                </li>
+                <li>
+                  <a href="./bg.html" class="dropdown-item" href="#">Pepsi</a>
+                </li>
+                <li>
+                  <a href="./bg.html" class="dropdown-item" href="#">Pizza</a>
+                </li>
+                <li>
+                  <a href="./bg.html" class="dropdown-item" href="#">Burger</a>
+                </li>
+                <li><a href="./bg.html" class="dropdown-divider" ></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <center>
+      <h1>Laiba Ahmad</h1>
+      <p>
+        I am 13 Years old learning web development. I want to be the world's best
+        software developer.
+      </p>
+    </center>
+  
+
+    <div class="main">
+      <div>
+        <div class="divul">
+          <ul id="praipt"></ul>
+        </div>
+        <input
+          required="required"
+          id="fname"
+          type="text"
+          class="form-control"
+          name="first_name"
+          placeholder="First Name"
+        />
+        <input
+          id="iptMess"
+          type="text"
+          placeholder="Type Your Message?"
+          style="padding: 8px; width: 300px"
+        />
+        <button onclick="send()">Send</button>
+        <button onclick="deleteall()">Delete All</button>
+        <br />
+      </div>
+    </div>
+
+    <script src="app1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
