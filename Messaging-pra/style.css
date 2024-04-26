@@ -1,0 +1,15 @@
+.my-card-main {
+  padding: 20px;
+}
+body {
+  margin: 100px;
+  text-align: center;
+}
+button {
+  background-color: aquamarine;
+  padding: 5px;
+  border-color: aquamarine;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
